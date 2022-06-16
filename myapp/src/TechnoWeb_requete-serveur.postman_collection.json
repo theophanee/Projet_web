@@ -1,0 +1,711 @@
+{
+	"info": {
+		"_postman_id": "2274b886-a2b5-4d1a-8173-3d2b356810fb",
+		"name": "TechnoWeb_requete Copy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "USER",
+			"item": [
+				{
+					"name": "api/user - création user 1",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"login\" : \"toto\",\r\n    \"password\" : \"derman512\",\r\n    \"confirmpassword\" : \"derman512\",\r\n    \"lastname\" : \"Macron\",\r\n    \"firstname\" :  \"Emmanuel\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://technoweb.lip6.fr:4443/api/user",
+							"protocol": "http",
+							"host": [
+								"technoweb",
+								"lip6",
+								"fr"
+							],
+							"port": "4443",
+							"path": [
+								"api",
+								"user"
+							],
+							"query": [
+								{
+									"key": "logi",
+									"value": "tonami",
+									"disabled": true
+								},
+								{
+									"key": "password",
+									"value": "toitoti",
+									"disabled": true
+								},
+								{
+									"key": "lastname",
+									"value": "tonami",
+									"disabled": true
+								},
+								{
+									"key": "firstname",
+									"value": "alain",
+									"disabled": true
+								}
+							]
+						},
+						"description": "Delete le premier utilisateur créé"
+					},
+					"response": []
+				},
+				{
+					"name": "api/user - création user 2",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"login\" : \"turbo400\",\r\n    \"password\" : \"400turbo\",\r\n    \"confirmpassword\" : \"400turbo\",\r\n    \"lastname\" : \"Free\",\r\n    \"firstname\" :  \"F\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/api/user",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"user"
+							]
+						},
+						"description": "création d'un autre user, avec des données différentes"
+					},
+					"response": []
+				},
+				{
+					"name": "api/user - création user 3",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"login\" : \"reginaPhalenge\",\r\n    \"password\" : \"iwishbutdontwantto\",\r\n    \"confirmpassword\" : \"iwishbutdontwantto\",\r\n    \"lastname\" : \"Buffay\",\r\n    \"firstname\" :  \"Pheobe\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/api/user",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"user"
+							]
+						},
+						"description": "autre creation de user"
+					},
+					"response": []
+				},
+				{
+					"name": "api/user - création user 4",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"login\" : \"DrDrakeRamoray\",\r\n    \"password\" : \"Ken/Adams\",\r\n    \"confirmpassword\" : \"Ken/Adams\",\r\n    \"lastname\" : \"Tribbiani\",\r\n    \"firstname\" :  \"Joey\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/api/user",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"user"
+							]
+						},
+						"description": "ajoute d'un user"
+					},
+					"response": []
+				},
+				{
+					"name": "api/user - création user 5",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"login\" : \"DinoCRoss\",\r\n    \"password\" : \"wewereonabreak!\",\r\n    \"confirmpassword\" : \"wewereonabreak!\",\r\n    \"lastname\" : \"Geller\",\r\n    \"firstname\" :  \"Ross\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/api/user",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"user"
+							]
+						},
+						"description": "Ajoute un autre user"
+					},
+					"response": []
+				},
+				{
+					"name": "api/user - création user 6",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"login\" : \"personne\",\r\n    \"password\" : \"personne\",\r\n    \"confirmpassword\" : \"personne\",\r\n    \"lastname\" : \"Personne\",\r\n    \"firstname\" :  \"P\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/api/user",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"user"
+							],
+							"query": [
+								{
+									"key": "logi",
+									"value": "tonami",
+									"disabled": true
+								},
+								{
+									"key": "password",
+									"value": "toitoti",
+									"disabled": true
+								},
+								{
+									"key": "lastname",
+									"value": "tonami",
+									"disabled": true
+								},
+								{
+									"key": "firstname",
+									"value": "alain",
+									"disabled": true
+								}
+							]
+						},
+						"description": "Delete le premier utilisateur créé"
+					},
+					"response": []
+				},
+				{
+					"name": "api/user/1 - Get user 1",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/api/user/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"user",
+								"1"
+							]
+						},
+						"description": "Montre le user 1"
+					},
+					"response": []
+				},
+				{
+					"name": "api/user/1 - delete user 1",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/api/user/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"user",
+								"1"
+							]
+						},
+						"description": "Supprime le user 1"
+					},
+					"response": []
+				},
+				{
+					"name": "api/user/infos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/api/user/infos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"user",
+								"infos"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "login",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "api/user/logout",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "FRIEND",
+			"item": [
+				{
+					"name": "apifriends/user/1/friends",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"login\" : \"turbo400\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/apifriends/user/1/friends",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"apifriends",
+								"user",
+								"1",
+								"friends"
+							]
+						},
+						"description": "crée un lien d'amitié de user1 vers le login entrée dans body"
+					},
+					"response": []
+				},
+				{
+					"name": "apifriends/user/1/friends",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/apifriends/user/1/friends",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"apifriends",
+								"user",
+								"1",
+								"friends"
+							]
+						},
+						"description": "Permet de recuperer la liste d'amis d'un utilisateur en donnant son id."
+					},
+					"response": []
+				},
+				{
+					"name": "apifriends/user/1/friends/2",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/apifriends/user/1/friends/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"apifriends",
+								"user",
+								"1",
+								"friends",
+								"2"
+							]
+						},
+						"description": "Supprime l'amitié allant de user_id à friend_id."
+					},
+					"response": []
+				},
+				{
+					"name": "apifriends/user/1/friends/3",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/apifriends/user/1/friends/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"apifriends",
+								"user",
+								"1",
+								"friends",
+								"3"
+							]
+						},
+						"description": "Get un lien d'amitié précis"
+					},
+					"response": []
+				},
+				{
+					"name": "apifriends/infos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/apifriends/infos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"apifriends",
+								"infos"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "apifriends/user/2/infos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/apifriends/user/2/infos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"apifriends",
+								"user",
+								"2",
+								"infos"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "MESSAGE",
+			"item": [
+				{
+					"name": "apimessages/user/2/messages",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"message\" : \"Il fait beau aujourd'hui:)\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/apimessages/user/2/messages",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"apimessages",
+								"user",
+								"2",
+								"messages"
+							]
+						},
+						"description": "Ajoute un message à l'utilisateur user_id."
+					},
+					"response": []
+				},
+				{
+					"name": "apimessages/user/2/messages",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"old_message\" : \"Il fait beau aujourd'hui:)\",\r\n    \"new_message\" : \"Je suis ton ami!\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/apimessages/user/2/messages",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"apimessages",
+								"user",
+								"2",
+								"messages"
+							]
+						},
+						"description": "Modifie un message d'eja existant de l'utilisateur user_id."
+					},
+					"response": []
+				},
+				{
+					"name": "apimessages/user/2/messages",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/apimessages/user/2/messages",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"apimessages",
+								"user",
+								"2",
+								"messages"
+							]
+						},
+						"description": "Retourne la liste de messages de l'utilisateur user_id."
+					},
+					"response": []
+				},
+				{
+					"name": "apimessages/user/2/messages",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"message\" : \"Il fait beau aujourd'hui:)\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/apimessages/user/2/messages",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"apimessages",
+								"user",
+								"2",
+								"messages"
+							]
+						},
+						"description": "Supprime le message message_id de l'utilisateur user_id"
+					},
+					"response": []
+				},
+				{
+					"name": "apimessages/user/1/messages/3",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/apimessages/user/1/messages/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"apimessages",
+								"user",
+								"1",
+								"messages",
+								"3"
+							]
+						},
+						"description": "Rend la liste de messages de l'ami friend_id de l'utilisateur user_id."
+					},
+					"response": []
+				},
+				{
+					"name": "apimessages/messages",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/apimessages/messages",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"apimessages",
+								"messages"
+							]
+						},
+						"description": "recuperer tous les messages de la base de donnée messages"
+					},
+					"response": []
+				},
+				{
+					"name": "apimessages/user/1/messages/friends",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/apimessages/user/1/messages/friends",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"apimessages",
+								"user",
+								"1",
+								"messages",
+								"friends"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "apimessages/infos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/apimessages/infos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"apimessages",
+								"infos"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "apimessages/user/1/infos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/apimessages/user/1/infos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"apimessages",
+								"user",
+								"1",
+								"infos"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

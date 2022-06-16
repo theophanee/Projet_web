@@ -1,0 +1,15 @@
+.actualite{
+    width: 60%;
+    border-right: 1px solid;
+    border-left: 1px solid;
+    min-width: fit-content;
+    border-color: white;
+}
+
+.titre{
+    top: 0;
+    z-index: 100;
+    border: 1px solid;
+    padding: 15x 20px;
+    border-color: white;
+}

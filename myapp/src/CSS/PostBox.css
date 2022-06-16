@@ -1,0 +1,33 @@
+.post{
+    border-bottom: 1px solid;
+    border-color: white;
+    padding-bottom: 10px;
+}
+
+.postbox{
+    display: flex;
+    margin-left: 0;
+}
+
+.pseudo{
+    color: rgb(255,240,0);
+    background-color: rgb(105,105,105);
+    border: none;
+    text-overflow: ellipsis;
+}
+.pseudo:hover{
+    color: white;
+    text-decoration:underline;
+}
+
+.post_txt{
+    margin-left: 0;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+.usr{
+    flex-direction: column;
+    display: flex;
+    align-items: flex-end;
+}

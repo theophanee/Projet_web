@@ -1,0 +1,50 @@
+.messages{
+    display: flex;
+    height: 890px;
+}
+
+.Menu{
+    flex: 3.5;
+    border-color: grey;
+    border-left: 1px solid;
+}
+
+.chat{
+    flex: 5.5;    
+    border-color: grey;
+    border-left: 1px solid;
+    border-right: 1px solid;
+}
+
+.chatBoxBottom{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ecrireMessage{
+    width: 80%;
+    height: 90px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.chatOnline{
+    flex: 3;
+}
+
+.box{
+    padding: 10px;
+    height: 100%;
+}
+
+.UserBox{
+    border:solid;
+    color: rgb(211,211,211);
+    border-radius: 10%;
+    border-color: rgb(211,211,211) ;
+    min-width: 200px;
+    max-width: 300px;
+    margin-left: 23%;
+}

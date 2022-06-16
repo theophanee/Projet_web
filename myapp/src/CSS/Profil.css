@@ -1,0 +1,45 @@
+.profil{
+    flex: 0.4;
+    border-right: 1px solid;
+    border-left: 1px solid;
+    min-width: fit-content;
+    border-color: white;
+}
+
+.profilusr{
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    border-bottom: 1px solid;
+    border-color: white;
+}
+
+.nbTweets{
+    padding-top: 0px;
+    color: white;
+}
+
+.ppProfil{
+    position: relative;
+    margin-right: 600px;
+}
+
+.banniere{
+    margin-left: 30%;
+    height: 200px;
+}
+
+.abos{
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+}
+.username{
+    color: rgb(255,240,0);
+    background-color: none;
+}
+
+.entete{
+    border-bottom: 1px solid;
+    border-color: white;
+}

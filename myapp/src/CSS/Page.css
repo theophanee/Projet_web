@@ -1,0 +1,31 @@
+.tweeter{
+    width: 150px;
+    border: none;
+    color: white;
+    font-weight:900;
+    text-transform: inherit;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+
+.titre{
+    color: rgb(255,240,0);
+}
+
+div{
+    text-align: start;
+    color: white;
+    width: auto;
+    padding: 1%;
+    margin: 0 auto;
+    background-color:  rgb(105,105,105);
+    box-shadow: none;
+}
+
+.Page{
+    min-height: 930px;
+    max-height: 100000px;
+    display: flex;
+}

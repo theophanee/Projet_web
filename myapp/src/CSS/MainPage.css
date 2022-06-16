@@ -1,0 +1,62 @@
+h1{
+    color: rgb(255,240,0);
+    text-align: center;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+h2{
+    text-align: center;
+}
+
+div{
+    width: 80%;
+    padding: 4%;
+    margin: 0 auto;
+    background-color:  rgb(105,105,105);
+    box-shadow: 2px 2px 2px 2px rgb(255,240,0);
+}
+
+input,button{
+    display: block;
+}
+
+input{
+    width: 300px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+button{
+    position: inherit;
+    width: 100%;
+    background-color:rgb(255,240,0);
+    height: 30px;
+    border-radius: 6px;
+    font-size: 1.4em;
+    color: rgb(105,105,105);
+}
+
+.nav1{
+    min-height: 930px;
+}
+
+img{
+    position: relative;
+    top: 1%;
+    left: 1%;
+}
+
+.bouton{
+    display: inline-block;
+    width: max-content;
+    padding: .5em 1em;
+    border: 0;
+    height: auto;
+    margin: .3em;
+}
+
+.btns-wrapper{
+    text-align: center;
+    padding-bottom: 0;
+}

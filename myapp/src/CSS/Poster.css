@@ -1,0 +1,36 @@
+.post{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid;
+}
+
+.post_input{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ImagePost{
+    background-color:  rgb(211,211,211);
+    text-decoration: wavy;
+    color: white;
+    height: 50px;
+    border: 1px solid;
+    width: 80px;
+}
+
+.post_input > input{
+    flex: 1;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.ecrirePost{
+    background-color:  rgb(211,211,211);
+    text-decoration: wavy;
+    color: white;
+    height: 80px;
+    border: 1px solid;
+    min-width: 200px;
+}
